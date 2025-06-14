@@ -12,23 +12,6 @@ const Contact = () => {
         <p>
           {
             {
-              English: 'Please RSVP by using the',
-              Hungarian: 'Kérjük, részvételi visszajelzésre használd a',
-            }[language]
-          }{' '}
-          <NavLink to={'/rsvp'}>
-            {
-              {
-                English: 'RSVP form',
-                Hungarian: 'visszajelzés űrlapot',
-              }[language]
-            }
-          </NavLink>
-          {'.'}
-        </p>
-        <p>
-          {
-            {
               English:
                 'If you have any questions about the day, any arrangements or the lead-up and post-wedding period, check out the relevant pages and the',
               Hungarian:
