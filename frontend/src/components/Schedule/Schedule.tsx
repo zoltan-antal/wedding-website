@@ -32,7 +32,7 @@ const Schedule = () => {
       day: { English: 'Saturday', Hungarian: 'Szombat' }[language],
       events: [
         {
-          time: { English: 'afternoon', Hungarian: 'délután' }[language],
+          time: { English: '2:30 - 3 pm', Hungarian: '14:30-15:00' }[language],
           text:
             {
               English: 'Arrival to venue',
@@ -40,7 +40,7 @@ const Schedule = () => {
             }[language] + ' 🚗',
         },
         {
-          time: { English: 'afternoon', Hungarian: 'délután' }[language],
+          time: { English: '3:30 pm', Hungarian: '15:30' }[language],
           text:
             {
               English: 'Ceremony',
@@ -48,7 +48,7 @@ const Schedule = () => {
             }[language] + ' 💍',
         },
         {
-          time: { English: 'afternoon', Hungarian: 'délután' }[language],
+          time: { English: '4:15 pm', Hungarian: '16:15' }[language],
           text:
             {
               English: 'Toast and cake',
@@ -56,15 +56,15 @@ const Schedule = () => {
             }[language] + ' 🥂',
         },
         {
-          time: { English: 'afternoon', Hungarian: 'délután' }[language],
+          time: { English: '4:45 pm', Hungarian: '16:45' }[language],
           text:
             {
-              English: 'Group photos',
-              Hungarian: 'Csoportképek',
+              English: 'Photos',
+              Hungarian: 'Fotózkodás',
             }[language] + ' 📸',
         },
         {
-          time: { English: 'evening', Hungarian: 'este' }[language],
+          time: { English: '6 pm', Hungarian: '18:00' }[language],
           text:
             {
               English: 'First dance',
@@ -72,7 +72,7 @@ const Schedule = () => {
             }[language] + ' 💃',
         },
         {
-          time: { English: 'evening', Hungarian: 'este' }[language],
+          time: { English: '6:30 pm', Hungarian: '18:30' }[language],
           text:
             {
               English: 'Dinner',
@@ -80,7 +80,7 @@ const Schedule = () => {
             }[language] + ' 🍽️',
         },
         {
-          time: { English: 'evening', Hungarian: 'este' }[language],
+          time: { English: '10 pm', Hungarian: '22:00' }[language],
           text:
             {
               English: 'More fun',
@@ -88,7 +88,7 @@ const Schedule = () => {
             }[language] + ' 🎉',
         },
         {
-          time: { English: '12 pm', Hungarian: '00:00' }[language],
+          time: { English: '11:30 pm', Hungarian: '23:30' }[language],
           text:
             {
               English: 'Midnight buffet',
