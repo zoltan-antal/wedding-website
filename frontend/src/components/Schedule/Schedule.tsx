@@ -180,14 +180,6 @@ const Schedule = () => {
           }[language]
         }
       </h1>
-      <p className="remark">
-        {
-          {
-            English: 'More detail and exact times to follow',
-            Hungarian: 'További részletek és pontos időpontok hamarosan',
-          }[language]
-        }
-      </p>
       <div className="timeline">
         {timelineData.map((dayData, dayIndex) => (
           <div key={dayIndex} className="day-section">
