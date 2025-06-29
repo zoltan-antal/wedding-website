@@ -118,15 +118,15 @@ const Schedule = () => {
       day: { English: 'Monday', Hungarian: 'Hétfő' }[language],
       events: [
         {
-          time: { English: 'morning', Hungarian: 'reggel' }[language],
+          time: { English: '10:15 am', Hungarian: '10:15' }[language],
           text:
             {
-              English: 'Travel to Balaton',
-              Hungarian: 'Utazás a Balatonra',
+              English: 'Travel to Balatonfüred',
+              Hungarian: 'Utazás a Balatonfüredre',
             }[language] + ' 🚆',
         },
         {
-          time: { English: 'afternoon', Hungarian: 'délután' }[language],
+          time: { English: '2 pm', Hungarian: '14:00' }[language],
           text:
             {
               English: 'Chilling at the beach',
@@ -134,7 +134,7 @@ const Schedule = () => {
             }[language] + ' 🏖️',
         },
         {
-          time: { English: 'evening', Hungarian: 'este' }[language],
+          time: { English: '8 pm', Hungarian: '20:00' }[language],
           text:
             {
               English: 'BBQ',
@@ -147,9 +147,15 @@ const Schedule = () => {
       day: { English: 'Tuesday', Hungarian: 'Kedd' }[language],
       events: [
         {
-          time: { English: 'early afternoon', Hungarian: 'kora délután' }[
-            language
-          ],
+          time: { English: '10 am', Hungarian: '10:00' }[language],
+          text:
+            {
+              English: 'Travel to Balatonfűzfő',
+              Hungarian: 'Utazás a Balatonfűzfőre',
+            }[language] + ' 🚆',
+        },
+        {
+          time: { English: '11:15 am', Hungarian: '11:15' }[language],
           text:
             {
               English: 'Mountain coaster',
@@ -157,9 +163,15 @@ const Schedule = () => {
             }[language] + ' 🎢',
         },
         {
-          time: { English: 'late afternoon', Hungarian: 'késő délután' }[
-            language
-          ],
+          time: { English: '1:30 pm', Hungarian: '13:30' }[language],
+          text:
+            {
+              English: 'Chilling at the beach',
+              Hungarian: 'Strandolás',
+            }[language] + ' 🏖️',
+        },
+        {
+          time: { English: '5 pm', Hungarian: '17:00' }[language],
           text:
             {
               English: 'Travel back to Budapest',
