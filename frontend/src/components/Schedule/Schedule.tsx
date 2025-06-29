@@ -20,7 +20,7 @@ const Schedule = () => {
       day: { English: 'Friday', Hungarian: 'Péntek' }[language],
       events: [
         {
-          time: { English: '3 pm', Hungarian: '15:00' }[language],
+          time: { English: '2:30 pm', Hungarian: '14:30' }[language],
           text:
             { English: 'Meet & Greet', Hungarian: 'Ismerkedős délután' }[
               language
