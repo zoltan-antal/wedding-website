@@ -83,8 +83,8 @@ const Schedule = () => {
           time: { English: '10 pm', Hungarian: '22:00' }[language],
           text:
             {
-              English: 'More fun',
-              Hungarian: 'Még több vidámság',
+              English: 'Dancing and more fun',
+              Hungarian: 'Tánc és még több vidámság',
             }[language] + ' 🎉',
         },
         {
