@@ -122,7 +122,7 @@ const Schedule = () => {
           text:
             {
               English: 'Travel to Balatonfüred',
-              Hungarian: 'Utazás a Balatonfüredre',
+              Hungarian: 'Utazás Balatonfüredre',
             }[language] + ' 🚆',
         },
         {
@@ -151,7 +151,7 @@ const Schedule = () => {
           text:
             {
               English: 'Travel to Balatonfűzfő',
-              Hungarian: 'Utazás a Balatonfűzfőre',
+              Hungarian: 'Utazás Balatonfűzfőre',
             }[language] + ' 🚆',
         },
         {
